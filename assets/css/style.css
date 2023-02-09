@@ -1,0 +1,18 @@
+header {
+  background-color: crimson;
+  color: white;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.card {}
+
+#username {
+  background-color: rgb(31, 113, 244);
+  color: white;
+}
+
+.card-body {
+  align-content: center;
+}
