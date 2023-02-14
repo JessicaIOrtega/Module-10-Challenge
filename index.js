@@ -18,17 +18,17 @@ function createManager() {
             {
                 type: 'input',
                 name: 'id',
-                message: 'What is your employer ID?',
+                message: 'What is manager`s ID?',
             },
             {
                 type: 'input',
                 name: 'email',
-                message: 'Your email address:',
+                message: 'What is manager`s email address:',
             },
             {
                 type: 'input',
                 name: 'number',
-                message: 'What is your office number?',
+                message: 'What is manager`s office number?',
             }
 
         ])
@@ -54,17 +54,17 @@ function createEngineer() {
             {
                 type: 'input',
                 name: 'id',
-                message: 'What is your employer ID?',
+                message: 'What is engineer`s ID?',
             },
             {
                 type: 'input',
                 name: 'email',
-                message: 'Your email address:',
+                message: 'What is engineer`s email address:',
             },
             {
                 type: 'input',
                 name: 'github',
-                message: 'What is his/her Github username?',
+                message: 'What is engineer`s Github username?',
             }
 
         ])
@@ -89,17 +89,17 @@ function createIntern() {
             {
                 type: 'input',
                 name: 'id',
-                message: 'What is your employer ID?',
+                message: 'What is intern`s ID?',
             },
             {
                 type: 'input',
                 name: 'email',
-                message: 'Your email address:',
+                message: 'What is intern`s email address:',
             },
             {
                 type: 'input',
                 name: 'school',
-                message: 'What is his/her School?',
+                message: 'Where does intern go to school?',
             }
 
         ])
@@ -126,26 +126,7 @@ function createEmployee() {
                 message: 'Which employee you want to create?',
                 choices: ["Engineer", "Intern", "No other employee"]
             }
-            // {
-            //     type: 'input',
-            //     name: 'name',
-            //     message: 'Employee name?',
-            // },
-            // {
-            //     type: 'input',
-            //     name: 'id',
-            //     message: 'Employee ID?',
-            // },
-            // {
-            //     type: 'input',
-            //     name: 'email',
-            //     message: 'Employee email address:',
-            // },
-            // {
-            //     type: 'input',
-            //     name: 'github',
-            //     message: 'Employee Github:',
-            // }
+
 
         ])
         .then(response => {

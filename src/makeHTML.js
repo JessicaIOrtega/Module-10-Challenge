@@ -31,7 +31,7 @@ const createTeam = (teamMembersInfo) => {
 
 // Render different employee information into page
 const createMng = (createManager) => {
-    return ` <div class=" col card shadow m-auto mt-5" style="width: 18rem;">
+    return ` <div class=" col-4 card shadow m-auto mt-5" style="width: 18rem;">
     <div class="card-body" id="username">
         <h3 class="card-title" id="name">${createManager.name}</h3>
         <h3 class="card-title" id="position">Manager</h3>
@@ -47,7 +47,7 @@ const createMng = (createManager) => {
 }
 
 const createEng = (createEngineer) => {
-    return ` <div class="col card shadow m-auto mt-5" style="width: 18rem;">
+    return ` <div class="col-4 card shadow m-auto mt-5" style="width: 18rem;">
     <div class="card-body" id="username">
         <h3 class="card-title" id="name">${createEngineer.name}</h3>
         <h3 class="card-title" id="position">Engineer</h3>
@@ -63,7 +63,7 @@ const createEng = (createEngineer) => {
 }
 
 const createIntrn = (createIntern) => {
-    return ` <div class="col card shadow m-auto mt-5" style="width: 18rem;">
+    return ` <div class="col-4 card shadow m-auto mt-5" style="width: 18rem;">
     <div class="card-body" id="username">
         <h3 class="card-title" id="name">${createIntern.name}</h3>
         <h3 class="card-title" id="position">Intern</h3>
